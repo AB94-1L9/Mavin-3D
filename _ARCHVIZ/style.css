@@ -1,0 +1,54 @@
+@font-face {
+    font-family: ReemKufi;
+    src: url(../fonts/ReemKufi.ttf);
+}
+
+:root {
+    --box-shadow: 5px 5px 15px #808080, -5px -5px 15px #808080;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ReemKufi;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    margin: auto;
+}
+
+.container {
+    content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.listProject {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.listProject .item {
+    text-align: center;
+    font-size: 20px;
+}
+
+.listProject .item img {
+    width: 95%;
+    border-radius: 1em;
+}
+
+.listProject .item img:hover {
+    box-shadow: var(--box-shadow);
+}
+
+@media screen and (max-width: 767px) {
+
+    .listProject {
+        grid-template-columns: 1fr;
+    }
+}
