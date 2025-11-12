@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="256"
+   height="256"
+   viewBox="-1 -1 256 256"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="768"
+   inkscape:export-ydpi="768"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="28.507795"
+       y="198.12918"
+       width="227.49221"
+       height="57.87082"
+       id="rect2" />
+    <rect
+       x="19.670379"
+       y="192.14254"
+       width="216.37416"
+       height="29.363029"
+       id="rect1" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showguides="true"
+     inkscape:current-layer="g1"
+     showgrid="false"
+     inkscape:export-bgcolor="#ffffff00" />
+  <g
+     id="g1"
+     transform="translate(0,-5.8544998)">
+    <g
+       id="g6"
+       transform="matrix(2.109,0,0,2.109,-146.43644,-26.237155)"
+       style="display:inline"
+       inkscape:label="logo">
+      <path
+         id="path6"
+         style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:normal"
+         d="m 179.65217,100.43464 h -50 v -50 m 0,50 V 50.434639 L 79.652174,100.43464 m 100.000006,0 a 25,25 0 0 1 -21.65064,-12.500001 25,25 0 0 1 0,-25 25,25 0 0 1 21.65064,-12.5" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.11,0,0,1.11,-24.102267,-48.294066)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:CookieRunOTF;-inkscape-font-specification:'CookieRunOTF, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:none;fill:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round"><tspan
+         x="28.507812"
+         y="242.52891"
+         id="tspan4"><tspan
+           style="font-size:48px;fill:#ffffff"
+           id="tspan3">Mavin 3D</tspan></tspan></text>
+  </g>
+</svg>

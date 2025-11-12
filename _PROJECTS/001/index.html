@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orb Rush</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<style>
+    .video {
+        display: flex;
+        max-height: 50vh;
+        min-height: 50vh;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 1em;
+    }
+
+    .material-button {
+        font-size: large;
+        font-family: ReemKufi;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        margin: auto;
+        border-radius: 2em;
+        margin-top: 20px;
+        transition: 0.3s;
+        background-color: #24bae3a0;
+    }
+
+    .material-button:hover {
+        background-color: #24BAE3;
+    }
+
+    .help {
+        font-size: 1.2em;
+        cursor: default;
+        margin: auto;
+        border: solid #808080;
+        overflow: hidden;
+        padding: 1em 1em;
+        background-color: #000000;
+        display: flex;
+        width: 60%;
+        margin-top: 20px;
+        border-radius: 1em;
+    }
+
+    a {
+        color: #e0e0e0;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .video {
+            width: 95%;
+        }
+
+        .help {
+            width: 95%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <video autoplay loop class="video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <button class="material-button" style="color: white;">
+            <a href="./WEB/index.html">
+                Play in Browser
+            </a>
+        </button>
+
+        <button class="material-button" style="color: white;">
+            <a href="https://drive.google.com/file/d/1dvEfssDh8CRRe6BW5OkrJZcdl-smEPj2/view?usp=drive_link">
+                Download for PC
+            </a>
+        </button>
+
+        <p class="help">
+            Use "W,A,S,D" or "Arrow" keys to control the ball.
+            <br>
+            Avoid falling from the chess board.
+        </p>
+
+    </div>
+</body>
+
+</html>
